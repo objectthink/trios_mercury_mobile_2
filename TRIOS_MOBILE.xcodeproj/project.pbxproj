@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01805CF11BBF4B6300EB731D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01805CE41BBF4B6300EB731D /* GCDAsyncSocket.m */; };
+		01805CF21BBF4B6300EB731D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01805CE61BBF4B6300EB731D /* GCDAsyncUdpSocket.m */; };
+		01805CF31BBF4B6300EB731D /* MercuryBroadcastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01805CE81BBF4B6300EB731D /* MercuryBroadcastManager.m */; };
+		01805CF41BBF4B6300EB731D /* MercuryFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 01805CEA1BBF4B6300EB731D /* MercuryFile.m */; };
+		01805CF51BBF4B6300EB731D /* MercuryInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = 01805CEC1BBF4B6300EB731D /* MercuryInstrument.m */; };
+		01805CF61BBF4B6300EB731D /* MercuryProcedure.m in Sources */ = {isa = PBXBuildFile; fileRef = 01805CEE1BBF4B6300EB731D /* MercuryProcedure.m */; };
+		01805CF71BBF4B6300EB731D /* MercuryStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 01805CF01BBF4B6300EB731D /* MercuryStatus.m */; };
 		018B62011BBF298C00CE9AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B62001BBF298C00CE9AD3 /* AppDelegate.swift */; };
 		018B62031BBF298C00CE9AD3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B62021BBF298C00CE9AD3 /* MasterViewController.swift */; };
 		018B62051BBF298C00CE9AD3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B62041BBF298C00CE9AD3 /* DetailViewController.swift */; };
@@ -16,6 +23,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01805CD01BBF2B8000EB731D /* TRIOS_MOBILE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRIOS_MOBILE-Bridging-Header.h"; sourceTree = "<group>"; };
+		01805CE31BBF4B6300EB731D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = "../MERCURY COMMS/GCDAsyncSocket.h"; sourceTree = "<group>"; };
+		01805CE41BBF4B6300EB731D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = "../MERCURY COMMS/GCDAsyncSocket.m"; sourceTree = "<group>"; };
+		01805CE51BBF4B6300EB731D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = "../MERCURY COMMS/GCDAsyncUdpSocket.h"; sourceTree = "<group>"; };
+		01805CE61BBF4B6300EB731D /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = "../MERCURY COMMS/GCDAsyncUdpSocket.m"; sourceTree = "<group>"; };
+		01805CE71BBF4B6300EB731D /* MercuryBroadcastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MercuryBroadcastManager.h; path = "../MERCURY COMMS/MercuryBroadcastManager.h"; sourceTree = "<group>"; };
+		01805CE81BBF4B6300EB731D /* MercuryBroadcastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MercuryBroadcastManager.m; path = "../MERCURY COMMS/MercuryBroadcastManager.m"; sourceTree = "<group>"; };
+		01805CE91BBF4B6300EB731D /* MercuryFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MercuryFile.h; path = "../MERCURY COMMS/MercuryFile.h"; sourceTree = "<group>"; };
+		01805CEA1BBF4B6300EB731D /* MercuryFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MercuryFile.m; path = "../MERCURY COMMS/MercuryFile.m"; sourceTree = "<group>"; };
+		01805CEB1BBF4B6300EB731D /* MercuryInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MercuryInstrument.h; path = "../MERCURY COMMS/MercuryInstrument.h"; sourceTree = "<group>"; };
+		01805CEC1BBF4B6300EB731D /* MercuryInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MercuryInstrument.m; path = "../MERCURY COMMS/MercuryInstrument.m"; sourceTree = "<group>"; };
+		01805CED1BBF4B6300EB731D /* MercuryProcedure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MercuryProcedure.h; path = "../MERCURY COMMS/MercuryProcedure.h"; sourceTree = "<group>"; };
+		01805CEE1BBF4B6300EB731D /* MercuryProcedure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MercuryProcedure.m; path = "../MERCURY COMMS/MercuryProcedure.m"; sourceTree = "<group>"; };
+		01805CEF1BBF4B6300EB731D /* MercuryStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MercuryStatus.h; path = "../MERCURY COMMS/MercuryStatus.h"; sourceTree = "<group>"; };
+		01805CF01BBF4B6300EB731D /* MercuryStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MercuryStatus.m; path = "../MERCURY COMMS/MercuryStatus.m"; sourceTree = "<group>"; };
 		018B61FD1BBF298C00CE9AD3 /* TRIOS_MOBILE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRIOS_MOBILE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B62001BBF298C00CE9AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		018B62021BBF298C00CE9AD3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -37,9 +59,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01805CCF1BBF2B6900EB731D /* Third-party */ = {
+			isa = PBXGroup;
+			children = (
+				01805CE31BBF4B6300EB731D /* GCDAsyncSocket.h */,
+				01805CE41BBF4B6300EB731D /* GCDAsyncSocket.m */,
+				01805CE51BBF4B6300EB731D /* GCDAsyncUdpSocket.h */,
+				01805CE61BBF4B6300EB731D /* GCDAsyncUdpSocket.m */,
+				01805CE71BBF4B6300EB731D /* MercuryBroadcastManager.h */,
+				01805CE81BBF4B6300EB731D /* MercuryBroadcastManager.m */,
+				01805CE91BBF4B6300EB731D /* MercuryFile.h */,
+				01805CEA1BBF4B6300EB731D /* MercuryFile.m */,
+				01805CEB1BBF4B6300EB731D /* MercuryInstrument.h */,
+				01805CEC1BBF4B6300EB731D /* MercuryInstrument.m */,
+				01805CED1BBF4B6300EB731D /* MercuryProcedure.h */,
+				01805CEE1BBF4B6300EB731D /* MercuryProcedure.m */,
+				01805CEF1BBF4B6300EB731D /* MercuryStatus.h */,
+				01805CF01BBF4B6300EB731D /* MercuryStatus.m */,
+				01805CD01BBF2B8000EB731D /* TRIOS_MOBILE-Bridging-Header.h */,
+			);
+			name = "Third-party";
+			sourceTree = "<group>";
+		};
 		018B61F41BBF298C00CE9AD3 = {
 			isa = PBXGroup;
 			children = (
+				01805CCF1BBF2B6900EB731D /* Third-party */,
 				018B61FF1BBF298C00CE9AD3 /* TRIOS_MOBILE */,
 				018B61FE1BBF298C00CE9AD3 /* Products */,
 			);
@@ -137,9 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01805CF11BBF4B6300EB731D /* GCDAsyncSocket.m in Sources */,
+				01805CF71BBF4B6300EB731D /* MercuryStatus.m in Sources */,
+				01805CF21BBF4B6300EB731D /* GCDAsyncUdpSocket.m in Sources */,
 				018B62051BBF298C00CE9AD3 /* DetailViewController.swift in Sources */,
+				01805CF41BBF4B6300EB731D /* MercuryFile.m in Sources */,
+				01805CF31BBF4B6300EB731D /* MercuryBroadcastManager.m in Sources */,
 				018B62031BBF298C00CE9AD3 /* MasterViewController.swift in Sources */,
+				01805CF51BBF4B6300EB731D /* MercuryInstrument.m in Sources */,
 				018B62011BBF298C00CE9AD3 /* AppDelegate.swift in Sources */,
+				01805CF61BBF4B6300EB731D /* MercuryProcedure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +304,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TRIOS_MOBILE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objectthink.TRIOS-MOBILE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TRIOS_MOBILE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -263,10 +320,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TRIOS_MOBILE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objectthink.TRIOS-MOBILE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TRIOS_MOBILE-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -289,6 +350,7 @@
 				018B62131BBF298C00CE9AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
