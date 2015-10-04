@@ -10,6 +10,7 @@ import UIKit
 
 class SignalViewController: UITableViewController, MercuryInstrumentDelegate
 {
+   var _statCount:Int?
    var _signals:[Float]?
    
    var instrument: MercuryInstrument?
@@ -39,6 +40,7 @@ class SignalViewController: UITableViewController, MercuryInstrumentDelegate
       tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "CELL")
       
       _signals = [Float]()
+      _statCount = 0
    }
    
    override func viewDidAppear(animated: Bool)
@@ -77,7 +79,7 @@ class SignalViewController: UITableViewController, MercuryInstrumentDelegate
       let procedure = MercuryGetProcedureResponse()
       let s = procedure.signalToString(Int32(indexPath.row))
       
-      let t = NSString(format: "%@ \t%.2f", s as String, self._signals![indexPath.row])
+      let t = NSString(format: "\t%@ \t%.2f", s as String, self._signals![indexPath.row])
       
       // Configure the cell...
       cell.textLabel?.text = t as String
@@ -93,8 +95,7 @@ class SignalViewController: UITableViewController, MercuryInstrumentDelegate
    
    func stat(message: NSData!, withSubcommand subcommand: uint)
    {
-      print("stat in signal view")
-      
+      _statCount!++
       dispatch_async(dispatch_get_main_queue(),
       { () -> Void in
          if subcommand == 0x00020002
@@ -111,7 +112,12 @@ class SignalViewController: UITableViewController, MercuryInstrumentDelegate
             }
          }
          
-         self.tableView.reloadData()
+         //self.tableView.reloadData()
+
+         if self._statCount! % 30 == 0
+         {
+            self.tableView.reloadData()
+         }
       })
    }
    

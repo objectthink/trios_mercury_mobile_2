@@ -96,6 +96,16 @@ class DetailViewController: UIViewController, MercuryInstrumentDelegate
       // Dispose of any resources that can be recreated.
    }
    
+   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+   {
+      if segue.identifier == "showSignals"
+      {
+         let controller = (segue.destinationViewController as! SignalViewController)
+         
+         controller.instrument = _instrument
+      }
+   }
+   
    func connected()
    {
       print("connected")
@@ -118,7 +128,7 @@ class DetailViewController: UIViewController, MercuryInstrumentDelegate
       }
       
       //print(subcommand)
-      
+            
       if subcommand == ProcedureStatus.rawValue
       {
          let response = MercuryProcedureStatus(message: message)

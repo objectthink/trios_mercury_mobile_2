@@ -20,6 +20,7 @@
 		018B62081BBF298C00CE9AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018B62061BBF298C00CE9AD3 /* Main.storyboard */; };
 		018B620A1BBF298C00CE9AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018B62091BBF298C00CE9AD3 /* Assets.xcassets */; };
 		018B620D1BBF298C00CE9AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018B620B1BBF298C00CE9AD3 /* LaunchScreen.storyboard */; };
+		01B4DA2C1BC0247400E0BAD2 /* SignalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B4DA2B1BC0247400E0BAD2 /* SignalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		018B62091BBF298C00CE9AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		018B620C1BBF298C00CE9AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		018B620E1BBF298C00CE9AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B4DA2B1BC0247400E0BAD2 /* SignalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignalViewController.swift; path = ../SignalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				018B62001BBF298C00CE9AD3 /* AppDelegate.swift */,
 				018B62021BBF298C00CE9AD3 /* MasterViewController.swift */,
 				018B62041BBF298C00CE9AD3 /* DetailViewController.swift */,
+				01B4DA2B1BC0247400E0BAD2 /* SignalViewController.swift */,
 				018B62061BBF298C00CE9AD3 /* Main.storyboard */,
 				018B62091BBF298C00CE9AD3 /* Assets.xcassets */,
 				018B620B1BBF298C00CE9AD3 /* LaunchScreen.storyboard */,
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01805CF11BBF4B6300EB731D /* GCDAsyncSocket.m in Sources */,
+				01B4DA2C1BC0247400E0BAD2 /* SignalViewController.swift in Sources */,
 				01805CF71BBF4B6300EB731D /* MercuryStatus.m in Sources */,
 				01805CF21BBF4B6300EB731D /* GCDAsyncUdpSocket.m in Sources */,
 				018B62051BBF298C00CE9AD3 /* DetailViewController.swift in Sources */,
