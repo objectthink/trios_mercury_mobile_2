@@ -47,6 +47,7 @@ class SignalViewController: UITableViewController, MercuryInstrumentDelegate
    {
       instrument!.addDelegate(self)
    }
+   
    override func viewDidDisappear(animated: Bool)
    {
       instrument!.removeDelegate(self)
